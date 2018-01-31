@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Display JSON by converting it into a script</h2>
+
+<p id="demo"></p>
+
+<script>
+
+var myObj = { "Firstname":"Tyler", "LastName":"Starkus", "PreferredName":"Tyler", "TeamName":"Pumas", "SeatLocation": "2", "Role":"Scrum member" };
+
+
+for (x in myObj) {
+    document.getElementById("demo").innerHTML += x + ":" + "<br>" + myObj[x] + "<br>" + "<br>";
+}
+
+</script>
+
+</body>
+</html>
